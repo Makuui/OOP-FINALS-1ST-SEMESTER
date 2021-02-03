@@ -22,6 +22,7 @@ public class FinalsMain {
         }
         
         java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
             public void run() {
                 new FinalsView().setVisible(true);
             }
